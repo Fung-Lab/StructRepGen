@@ -41,26 +41,32 @@ CONFIG = dotdict(CONFIG)
 
 Extract representations for training generative model using selected descriptor.
 
-See [`examples/example_extract.py`](https://github.com/shuyijia/srg/blob/main/examples/example_extract.py)
+See [`examples/example_extract.py`](https://github.com/Fung-Lab/StructRepGen/blob/main/examples/example_extract.py)
 
 ### Generative Model
 
 Train a CVAE (conditional variational auto-encoder) as the generative model. 
 
-See [`examples/example_cvae_trainer.py`](https://github.com/shuyijia/srg/blob/main/examples/example_cvae_trainer.py).
+See [`examples/example_cvae_trainer.py`](https://github.com/Fung-Lab/StructRepGen/blob/main/examples/example_cvae_trainer.py).
 
 ### Generation
 
 Generate representation from a given target value using the decoder part of the CVAE. 
 
-See [`tests/test_generator.py`](https://github.com/shuyijia/srg/blob/main/tests/test_generator.py).
+See [`examples/example_generator.py`](https://github.com/Fung-Lab/StructRepGen/blob/main/examples/example_generator.py).
 
 ### Reconstruction
 
 Generate atomic structures from generated representation.
 
-See [`tests/test_reconstruction.py`](https://github.com/shuyijia/srg/blob/main/tests/test_reconstruction.py).
+See [`examples/example_reconstruction.py`](https://github.com/Fung-Lab/StructRepGen/blob/main/examples/example_reconstruction.py).
 
+A script to run all of the above examples is provided in `quickrun.sh`. To execute, do
+
+```bash
+chmod u+x quickrun.sh
+./quickrun.sh
+```
 ______________________________________________________________________
 
 ## Results
