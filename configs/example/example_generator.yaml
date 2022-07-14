@@ -1,0 +1,11 @@
+gpu: False
+params:
+  input_dim: 380
+  latent_dim: 10
+num_z: 1000
+targets: [1.9, 2.2, 2.5, 2.8, 3.1, 3.4, 3.7]
+delta: 0.1
+model_path: "./data/saved_models/model_saved.pt"
+scaler_path: "./data/saved_models/scaler.gz"
+ff_model_path: "./data/saved_models/model_FF_saved.pt"
+save_path: "./outputs/generated_samples/"

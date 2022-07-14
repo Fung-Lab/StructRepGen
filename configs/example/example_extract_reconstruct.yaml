@@ -1,0 +1,41 @@
+########################################################################
+# Parameters and configurations for both extraction and reconstruction #
+########################################################################
+
+# PyTorch device
+gpu: False
+
+# chemical system
+cell: [[20.,0.,0.],[0.,20.,0.],[0.,0.,20.]]
+atoms: [78, 78, 78, 78, 78, 78, 78, 78, 78, 78]
+
+# descriptor configuration
+descriptor: "behler"
+cutoff: 20.0
+mode: "features"
+g5: True
+average: True
+g2_params:
+  eta: [0.01, 0.06, 0.1, 0.2, 0.4, 0.7, 1.0, 2.0, 3.5, 5.0]
+  Rs: [0, 1, 1.5, 2, 2.5, 3, 3.5, 4, 5, 6, 7, 8, 9, 10]
+g5_params:
+  lambdas: [-1, 1]
+  zeta: [1, 2, 4, 16, 64]
+  eta: [0.06, 0.1, 0.2, 0.4, 1.0]
+  Rs: [0]
+
+# raw data file path
+data: "./data/raw/data.db"
+
+# extracted representation save file path
+x_fname: "./data/representation/x_test.csv"
+y_fname: "./data/representation/y_test.csv"
+
+# ff_net surrogate model path
+ff_model_path: "./data/saved_models/model_FF_saved.pt"
+
+# generated sample file path
+structure_file_path: "./outputs/generated_samples/gen_samps_x_2.2.csv"
+
+# reconstruction save file path
+reconstructed_file_path: "./outputs/reconstructed/"

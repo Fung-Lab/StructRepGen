@@ -1,0 +1,2 @@
+ase==3.22.1
+scikit-optimize==0.9.0

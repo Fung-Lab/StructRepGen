@@ -1,0 +1,17 @@
+descriptor: "behler"
+gpu: False
+cutoff: 20.0
+mode: "features"
+g5: True
+average: True
+g2_params:
+  eta: [0.01, 0.06, 0.1, 0.2, 0.4, 0.7, 1.0, 2.0, 3.5, 5.0]
+  Rs: [0, 1, 1.5, 2, 2.5, 3, 3.5, 4, 5, 6, 7, 8, 9, 10]
+g5_params:
+  lambdas: [-1, 1]
+  zeta: [1, 2, 4, 16, 64]
+  eta: [0.06, 0.1, 0.2, 0.4, 1.0]
+  Rs: [0]
+data: "./data/raw/data.db"
+x_fname: "./data/unittest/unittest_behler_x.csv"
+y_fname: "./data/unittest/unittest_behler_y.csv"

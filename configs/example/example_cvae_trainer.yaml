@@ -1,0 +1,21 @@
+gpu: False
+params:
+  seed: 42
+  split_ratio: 0.2
+  input_dim: 380
+  hidden_dim: 128
+  latent_dim: 10
+  hidden_layers: 3
+  y_dim: 1
+  batch_size: 64
+  n_epochs: 1000
+  lr: 0.001
+  final_decay: 0.2
+  weight_decay: 0.001
+  verbosity: 50
+  kl_weight: 2.5
+  mc_kl_loss: False
+data_x_path: "./data/representation/data_x_fps_3.csv"
+data_y_path: "./data/representation/data_y_fps_3.csv"
+model_path: "./data/saved_models/model_saved.pt"
+scaler_path: "./data/saved_models/scaler.gz"
