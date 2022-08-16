@@ -4,6 +4,8 @@
 
 **Atomic Structure Generation from Reconstructing Structural Fingerprints**
 
+[[arXiv](https://arxiv.org/abs/2207.13227)]
+
 </div>
 
 ## Requirements
@@ -69,20 +71,13 @@ chmod u+x quickrun.sh
 ```
 ______________________________________________________________________
 
-## Results
-
-<div align="center">
-    <img src="https://images.unsplash.com/photo-1494256997604-768d1f608cac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1858&q=80" width="65%">
-</div>
-
-______________________________________________________________________
-
 ## Citation
 
 ```bash
-@article{XXXX,
+@article{fung2022atomic,
   title={Atomic structure generation from reconstructing structural fingerprints},
-  author = {XXXX},
-  journal={XXXX},
+  author={Fung, Victor and Jia, Shuyi and Zhang, Jiaxin and Bi, Sirui and Yin, Junqi and Ganesh, P},
+  journal={arXiv preprint arXiv:2207.13227},
   year={2022}
 }
+```
