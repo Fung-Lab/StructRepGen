@@ -1,7 +1,10 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='srg',
+    name='structrepgen',
     version='0.0.1',
-    packages=find_packages()
+    description="Atomic Structure Generation from Reconstructing Structural Fingerprints",
+    url="https://github.com/Fung-Lab/StructRepGen",
+    packages=find_packages(),
+    include_package_data=True,
 )
