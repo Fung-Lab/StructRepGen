@@ -2,8 +2,8 @@ import numpy as np
 import pandas as pd
 import ase, ase.db, csv, yaml, torch
 
-from src.descriptors.behler import Behler
-from src.descriptors.generic import *
+from structrepgen.descriptors.behler import Behler
+from structrepgen.descriptors.generic import *
 
 class RepresentationExtraction:
     def __init__(self, CONFIG) -> None:

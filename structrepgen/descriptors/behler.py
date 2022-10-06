@@ -1,7 +1,7 @@
 import numpy as np
 import itertools, torch, warnings
 from itertools import combinations, combinations_with_replacement
-from src.utils.utils import torch_device_select
+from structrepgen.utils.utils import torch_device_select
 
 class Behler:
     '''

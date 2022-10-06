@@ -1,15 +1,14 @@
 import time, ase, torch, os, pickle
-from turtle import pos
 import numpy as np
 import torch.nn.functional as F
 from ase import io, Atoms
 from skopt.space import Space
 from skopt.sampler import Lhs, Halton, Grid
-from src.models.models import *
-from src.descriptors.behler import Behler
-from src.descriptors.generic import *
-from src.models.CVAE import *
-from src.utils.utils import torch_device_select
+from structrepgen.models.models import *
+from structrepgen.descriptors.behler import Behler
+from structrepgen.descriptors.generic import *
+from structrepgen.models.CVAE import *
+from structrepgen.utils.utils import torch_device_select
 
 class Reconstruction:
     '''

@@ -9,9 +9,9 @@ import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
 
-from src.models.models import ff_net
-from src.utils.dotdict import dotdict
-from src.utils.utils import torch_device_select
+from structrepgen.models.models import ff_net
+from structrepgen.utils.dotdict import dotdict
+from structrepgen.utils.utils import torch_device_select
 
 '''
 Example of training a surrogate model based on the representation R extracted using Behler descriptors

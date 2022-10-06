@@ -1,7 +1,7 @@
 import yaml, os, unittest, torch
 import numpy as np
-from src.extraction.representation_extraction import *
-from src.utils.dotdict import dotdict
+from structrepgen.extraction.representation_extraction import *
+from structrepgen.utils.dotdict import dotdict
 from original.db_to_data import db_to_data
 
 class TestBehler(unittest.TestCase):

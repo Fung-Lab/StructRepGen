@@ -1,9 +1,9 @@
 import torch, joblib, os
 import numpy as np
 
-from src.models.models import *
-from src.models.CVAE import *
-from src.utils.utils import torch_device_select
+from structrepgen.models.models import *
+from structrepgen.models.CVAE import *
+from structrepgen.utils.utils import torch_device_select
 
 class Generator:
     '''

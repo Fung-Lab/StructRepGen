@@ -1,7 +1,7 @@
 import yaml, os, unittest, torch
 import numpy as np
-from src.generators.generator import Generator
-from src.utils.dotdict import dotdict
+from structrepgen.generators.generator import Generator
+from structrepgen.utils.dotdict import dotdict
 
 stream = open('./configs/example/example_generator.yaml')
 CONFIG = yaml.safe_load(stream)

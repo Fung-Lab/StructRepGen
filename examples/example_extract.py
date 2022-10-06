@@ -8,8 +8,8 @@
 '''
 
 import yaml
-from src.extraction.representation_extraction import *
-from src.utils.dotdict import dotdict
+from structrepgen.extraction.representation_extraction import *
+from structrepgen.utils.dotdict import dotdict
 
 # load our config yaml file
 stream = open('./configs/example/example_extract_reconstruct.yaml')
